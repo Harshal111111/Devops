@@ -28,7 +28,16 @@ Note: for automation of this processes we can use programming languages like pyt
        print(bucket.name)
 
  !! we can find the scripts for listing ec2 and other services as well, in the boto3 documentation.
+
+
+ # Linux and Shell Scripting:
+ when we do ssh to our running instance which is an Ubuntu machine( in most of the cases )
+!! to get the address of the current directory:
+ > pwd
+ (Present Working Directory)
+
+
+
+
+
  
-
-
-
