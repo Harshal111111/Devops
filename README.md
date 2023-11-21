@@ -44,7 +44,7 @@ We can do various tasks like:
 3 List IAM Users
 4 List Lambda etc.
 
-Refer: https://docs.aws.amazon.com/cli/latest/ 
+    Refer: https://docs.aws.amazon.com/cli/latest/ 
 for the commands
 
 script file should start with:
@@ -52,6 +52,10 @@ script file should start with:
 
 # Github API Integration:
 Search for Github API documentation, we can get the commands and endpoints from there.
+
+by this we can do the following tasks and amany more:
+1 List the group of people who has access to the repo.
+
 
 
 
