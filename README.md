@@ -22,10 +22,10 @@ Note: for automation of this processes we can use programming languages like pyt
 
  # To list all the s3 buckets using boto3:
    
-   import boto3
-   s3 = s3.resource('s3')
-   for bucket in s3.buckets.all():
-       print(bucket.name)
+   > import boto3
+   > s3 = s3.resource('s3')
+   > for bucket in s3.buckets.all():
+   >     print(bucket.name)
 
  !! we can find the scripts for listing ec2 and other services as well, in the boto3 documentation.
 
@@ -35,10 +35,24 @@ Note: for automation of this processes we can use programming languages like pyt
 !! to get the address of the current directory:
  > pwd
  (Present Working Directory)
- 
+
+ # Script to Report the AWS usage in a Project: (AWS Project)
+    Cron Job: It refers to performing some activity at particular fixed time.
+We can do various tasks like:
+1 List S3
+2 List EC2
+3 List IAM Users
+4 List Lambda etc.
+
+Refer: https://docs.aws.amazon.com/cli/latest/ 
+for the commands
+
+script file should start with:
+> #!/bin/bash
+
+# Github API Integration:
+Search for Github API documentation, we can get the commands and endpoints from there.
 
 
 
 
-
- 
