@@ -124,7 +124,8 @@ Alternatively, you can use the following command to create and switch to a new b
     git checkout -b branch_name
 
 3. List Local Branches:
-    git branch
+
+        git branch
 
 4. List Remote Branches:
     git branch -r
@@ -161,5 +162,9 @@ If there are conflicting changes during a merge, Git will mark the conflicted fi
 
     # Delete the feature branch if it's no longer needed
     git branch -d feature_branch
+
+
+# TRying to add code block
+
 
 
