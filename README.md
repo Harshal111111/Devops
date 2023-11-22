@@ -55,10 +55,6 @@ Search for Github API documentation, we can get the commands and endpoints from 
 
 by this we can do the following tasks and amany more:
 
-
-1 List the group of people who has access to the repo.
-
-
-
-
-
+1. List the group of people who has access to the repo.
+2. List Issues in the repo.
+3. Create an issue. etc.
