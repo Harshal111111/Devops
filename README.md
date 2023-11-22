@@ -57,4 +57,18 @@ by this we can do the following tasks and amany more:
 
 1. List the group of people who has access to the repo.
 2. List Issues in the repo.
-3. Create an issue. etc.
+3. Create an issue etc.
+
+# Git VS Github:
+
+1. Git: 
+> Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects.
+
+> Git enables multiple developers to work on a project simultaneously, keeping track of changes and merging them seamlessly.
+
+2. Github: 
+> GitHub, on the other hand, is a web-based platform that utilizes Git for version control. It provides additional features and a centralized platform for collaboration.
+
+> GitHub allows developers to host their Git repositories online, making it easier to share code, collaborate with others, and manage projects.
+
+> It includes features like issue tracking, pull requests, and a web-based interface for easier collaboration.
