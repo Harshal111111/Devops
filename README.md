@@ -140,9 +140,11 @@ Alternatively, you can use the following command to create and switch to a new b
 
 6. Merge Changes from One Branch into Another:
 First, switch to the branch where you want to merge changes (e.g., the main branch).
-    git checkout main
+    
+        git checkout main
 Then, merge the changes from another branch.
-    git merge branch_name
+
+        git merge branch_name
 
 7. Delete a Branch After Merging:
 
