@@ -112,3 +112,63 @@ Distributed: Git, Mercurial, Bazaar
 Non-Distributed (Centralized): CVS, Subversion (SVN)
 
 # Git Branching:
+Branching in Git is a powerful feature that allows developers to create divergent lines of development within a project. It enables you to work on new features, bug fixes, or experiments without affecting the main codebase until you are ready to merge your changes. Here's an overview of the basic Git branching concepts:
+
+1. Creating a New Branch:
+
+    git branch branch_name
+
+2. Switching to a Branch:
+
+    git checkout branch_name
+
+Alternatively, you can use the following command to create and switch to a new branch in one 
+
+    git checkout -b branch_name
+
+3. List Local Branches:
+
+    git branch
+
+4. List Remote Branches:
+
+    git branch -r
+
+5. List All Branches (Local and Remote):
+
+    git branch -a
+
+6. Merge Changes from One Branch into Another:
+First, switch to the branch where you want to merge changes (e.g., the main branch).
+
+    git checkout main
+Then, merge the changes from another branch.
+
+    git merge branch_name
+
+7. Delete a Branch After Merging:
+
+    git branch -d branch_name
+
+8. Resolving Conflicts:
+If there are conflicting changes during a merge, Git will mark the conflicted files. You need to resolve the conflicts manually, then add and commit the changes.
+
+> Example Workflow:
+
+    # Create and switch to a new branch
+    git checkout -b feature_branch
+
+    # Make changes and commit them
+    git add .
+    git commit -m "Implemented new feature"
+
+    # Switch back to the main branch
+    git checkout main
+
+    # Merge changes from the feature branch
+    git merge feature_branch
+
+    # Delete the feature branch if it's no longer needed
+    git branch -d feature_branch
+
+
