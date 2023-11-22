@@ -62,13 +62,51 @@ by this we can do the following tasks and amany more:
 # Git VS Github:
 
 1. Git: 
-> Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects.
+Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects.
 
-> Git enables multiple developers to work on a project simultaneously, keeping track of changes and merging them seamlessly.
+Git enables multiple developers to work on a project simultaneously, keeping track of changes and merging them seamlessly.
 
 2. Github: 
-> GitHub, on the other hand, is a web-based platform that utilizes Git for version control. It provides additional features and a centralized platform for collaboration.
+GitHub, on the other hand, is a web-based platform that utilizes Git for version control. It provides additional features and a centralized platform for collaboration.
 
-> GitHub allows developers to host their Git repositories online, making it easier to share code, collaborate with others, and manage projects.
+GitHub allows developers to host their Git repositories online, making it easier to share code, collaborate with others, and manage projects.
 
-> It includes features like issue tracking, pull requests, and a web-based interface for easier collaboration.
+It includes features like issue tracking, pull requests, and a web-based interface for easier collaboration.
+
+# Distributed VS Non Distributed Version Controlling Systems:
+
+1. Distributed Version Control System (DVCS):
+
+In a distributed version control system, each user has a complete copy of the entire repository, including its full history. Examples of DVCS include Git, Mercurial, and Bazaar. 
+Users can work independently on their local copies, commit changes, and even create branches without needing constant access to a central server.
+This decentralization makes it easier for developers to work offline and collaborate more flexibly. It also provides redundancy and mitigates the risk of a single point of failure.
+
+2. Non-Distributed (Centralized) Version Control System:
+
+In a non-distributed or centralized version control system, there is a single, central repository that contains the master copy of the codebase and its history. Examples include CVS (Concurrent Versions System) and Subversion (SVN).
+Developers typically check out a working copy from the central repository, make changes, and then commit those changes back to the central repository.
+Collaboration often involves interacting with the central server, and working offline or creating branches can be more challenging compared to distributed systems.
+
+# Key Differences:
+
+Collaboration:
+
+In DVCS, collaboration can happen more independently, with each user having a full copy of the repository.
+In non-distributed systems, collaboration usually involves interactions with the central server.
+Offline Work:
+
+DVCS allows developers to work offline, committing changes locally, and then synchronizing with the central repository later.
+Non-distributed systems may require a constant connection to the central server for most operations.
+Redundancy:
+
+DVCS inherently provides redundancy because every user has a full copy of the repository.
+In non-distributed systems, the central server holds the master copy, and redundancy depends on backup strategies.
+Flexibility:
+
+DVCS offers more flexibility for branching and merging, often making these operations faster and more straightforward.
+Non-distributed systems can also handle branching and merging but may involve more interaction with the central server.
+
+# Examples:
+
+Distributed: Git, Mercurial, Bazaar
+Non-Distributed (Centralized): CVS, Subversion (SVN)
