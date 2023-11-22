@@ -156,23 +156,17 @@ If there are conflicting changes during a merge, Git will mark the conflicted fi
 > Example Workflow:
 
     # Create and switch to a new branch
-    git checkout -b feature_branch
+        git checkout -b feature_branch
 
     # Make changes and commit them
-    git add .
-    git commit -m "Implemented new feature"
+        git add .
+        git commit -m "Implemented new feature"
 
     # Switch back to the main branch
-    git checkout main
+        git checkout main
 
     # Merge changes from the feature branch
-    git merge feature_branch
+        git merge feature_branch
 
     # Delete the feature branch if it's no longer needed
-    git branch -d feature_branch
-
-
-# TRying to add code block
-
-
-
+        git branch -d feature_branch
