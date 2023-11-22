@@ -3,7 +3,7 @@ Basic steps:
 1. launch instance
 2. create key-value pair and save the .pem file.
 3. use the public IP.
-4. to login to the ec2 instance: "ssh -i location/to/the/.pem file ubuntu@public IP " (we are using ubuntu because we have crrated ubuntu machine(ec2)).
+4. to login to the ec2 instance: "ssh -i location/to/the/.pem file ubuntu@public IP " (we are using ubuntu because we have created ubuntu machine(ec2)).
 
 # Ways to create an EC2 Instaance:
 1. AWS CLI: we have to download AWS CLI in our computer and do aws configure.
