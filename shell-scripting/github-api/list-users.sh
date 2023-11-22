@@ -1,3 +1,11 @@
+###########################################################################################################################################################################
+#This Script Provides the list of users who has access to githu repo.
+# Prerequisites: we have to import our username and PAT.
+# Commands: export username="username" and export token="token"
+#owner: Harshal Bordiya
+#Date: 21 November 2023
+###########################################################################################################################################################################
+
 #!/bin/bash
 
 # GitHub API URL
@@ -36,10 +44,8 @@ function list_users_with_read_access {
     fi
 }
 
+# Here we can use helper functions to avoid commnad line errors, if the script is executed in a wrong way.
 # Main script
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
-
-
-
