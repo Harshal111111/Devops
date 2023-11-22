@@ -110,3 +110,5 @@ Non-distributed systems can also handle branching and merging but may involve mo
 
 Distributed: Git, Mercurial, Bazaar
 Non-Distributed (Centralized): CVS, Subversion (SVN)
+
+# Git Branching:
