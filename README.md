@@ -209,11 +209,13 @@ Here's a typical workflow involving a hotfix branch:
         git merge hotfix_branch
 
 6. Tag the Release:
+
 . A version tag is often applied to the main branch to mark the release containing the hotfix.
 
         git tag -a v1.0.1 -m "Hotfix release 1.0.1"
 
 7. Optional: Merge Changes Back to Development:
+
 . In some workflows, the changes made in the hotfix branch might be merged back into the development branch to ensure that the fixes are part of ongoing development.
 
         git checkout development
