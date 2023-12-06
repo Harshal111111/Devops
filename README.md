@@ -440,7 +440,7 @@ There are several tools available for implementing configuration management in a
 
 When selecting a configuration management tool or tools for your DevOps workflow, consider factors such as the complexity of your infrastructure, the skills of your team, and the specific requirements of your project. It's common for organizations to use a combination of these tools to address different aspects of configuration management and automation.
 
-# We Will move forward with Ansible:
+# We will move forward with Ansible:
 1. Ansible is an open-source IT automation platform that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes. It is agentless, meaning it does not require any software to be installed on the managed systems.
 
 Ansible uses a simple YAML language to define playbooks, which are blueprints of automation tasks. Playbooks can be used to automate a wide variety of tasks, including:
@@ -466,4 +466,13 @@ Here are some additional resources that you may find helpful:
 
 - Ansible documentation: https://docs.ansible.com/
 - Ansible Galaxy: https://galaxy.ansible.com/
-- Ansible community: https://github.com/jamielinux/ansible-discourse
+- Ansible community: https://github.com/jamielinux/ansible-discourse.
+
+# How we can achieve Agentless(assword less) Authenticaation using Ansible:
+
+- Doing this needs 2 or more than 2 ec2 instances.
+- Let's say we hhave 2 two instances one is ansible-server and second one is the Target-server.
+
+we have to install ansible on this servers (ec2 innstances)
+Refer:
+         https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible
