@@ -514,8 +514,8 @@ database_servers:
 and many other ways are there.
 
 # Test Connectivity of the servers:
-`ansible -i inventory.ini -m ping web_servers
-ansible -i inventory.ini -m ping database_servers`
+`ansible -i inventory.ini -m ping web_servers`
+`ansible -i inventory.ini -m ping database_servers`
 
 - It will return:
 
