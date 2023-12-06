@@ -487,6 +487,7 @@ Here are some additional resources that you may find helpful:
 # Managing different number of servers in Inventory file:
 
 INI Format:
+
         [web_servers]
         web1 ansible_host=192.168.1.101
         web2 ansible_host=192.168.1.102
