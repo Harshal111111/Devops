@@ -504,18 +504,18 @@ and many other ways are there.
 
 - It will return:
 
-`web1 | SUCCESS => {
-    "ansible_facts": {
-        "discovered_interpreter_python": "/usr/bin/python3"
-    },
-    "changed": false,
-    "ping": "pong"
-}
+        web1 | SUCCESS => {
+        "ansible_facts": {
+                "discovered_interpreter_python": "/usr/bin/python3"
+        },
+        "changed": false,
+        "ping": "pong"
+        }
 
-web2 | SUCCESS => {
-    "ansible_facts": {
-        "discovered_interpreter_python": "/usr/bin/python3"
-    },
-    "changed": false,
-    "ping": "pong"
-}`
+        web2 | SUCCESS => {
+        "ansible_facts": {
+                "discovered_interpreter_python": "/usr/bin/python3"
+        },
+        "changed": false,
+        "ping": "pong"
+        }
