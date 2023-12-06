@@ -487,36 +487,19 @@ Here are some additional resources that you may find helpful:
 # Managing different number of servers in Inventory file:
 
 INI Format:
-[web_servers]
-web1 ansible_host=192.168.1.101
-web2 ansible_host=192.168.1.102
+        [web_servers]
+        web1 ansible_host=192.168.1.101
+        web2 ansible_host=192.168.1.102
 
-[database_servers]
-db1 ansible_host=192.168.1.201
-db2 ansible_host=192.168.1.202
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-YAML Format:
-web_servers:
-  hosts:
-    web1:
-      ansible_host: 192.168.1.101
-    web2:
-      ansible_host: 192.168.1.102
-
-database_servers:
-  hosts:
-    db1:
-      ansible_host: 192.168.1.201
-    db2:
-      ansible_host: 192.168.1.202
-
+        [database_servers]
+        db1 ansible_host=192.168.1.201
+        db2 ansible_host=192.168.1.202
 and many other ways are there.
 
 # Test Connectivity of the servers:
-        `ansible -i inventory.ini -m ping web_servers`
+         ansible -i inventory.ini -m ping web_servers
 
-        `ansible -i inventory.ini -m ping database_servers`
+         ansible -i inventory.ini -m ping database_servers
 
 - It will return:
 
