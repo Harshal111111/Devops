@@ -473,6 +473,10 @@ Here are some additional resources that you may find helpful:
 - Doing this needs 2 or more than 2 ec2 instances.
 - Let's say we hhave 2 two instances one is ansible-server and second one is the Target-server.
 
-we have to install ansible on this servers (ec2 innstances)
-Refer:
+- we have to install ansible on this servers (ec2 innstances)
+- Refer:
          https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible
+- Create ssh key by running: `ssh-keygen` (in both the servers)
+- Copy the id_rsa.pub from the ansible-server and paste it to the authorized-key file in the target server (this file is created by the ssh-keygen command only)
+- Create inventory file in the ansible server and paste the private ipv4 address of the target server in it.
+- Thats all now if you will try running `ssh <private-ip-address-of-target-server>` you will be able to communicate it with agentlessly. 
