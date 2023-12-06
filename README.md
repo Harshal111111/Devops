@@ -372,6 +372,7 @@ There are several tools available for implementing configuration management in a
      - Agentless architecture.
      - Large community and extensive module library.
      - Supports push-based configuration management.
+     - Follows Push Model
 
 2. Puppet:
    - Description: Puppet is a declarative configuration management tool that uses a custom language (Puppet DSL) to define configurations.
@@ -379,6 +380,7 @@ There are several tools available for implementing configuration management in a
      - Agent-based architecture.
      - Provides a rich set of modules.
      - Supports both Windows and Unix-like systems.
+     - Follows Pull Model
 
 3. Chef:
    - Description: Chef is a configuration management tool that uses a Ruby-based DSL (Domain-Specific Language) to define configurations.
