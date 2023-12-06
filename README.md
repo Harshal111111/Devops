@@ -480,3 +480,6 @@ Here are some additional resources that you may find helpful:
 - Copy the id_rsa.pub from the ansible-server and paste it to the authorized-key file in the target server (this file is created by the ssh-keygen command only)
 - Create inventory file in the ansible server and paste the private ipv4 address of the target server in it.
 - Thats all now if you will try running `ssh <private-ip-address-of-target-server>` you will be able to communicate it with agentlessly. 
+- we can use Ansible adhoc commands to perfrom the tasks on the target servers.
+- for example: `ansible -i inventory all -m "shell" -a "touch devops-file` (run this command on the ansible server and it will create a file called devops-file on the target server)
+- Refer: https://docs.ansible.com/ansible/latest/command_guide/intro_adhoc.html
