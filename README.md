@@ -684,3 +684,5 @@ Roles are a powerful feature in Ansible, enabling better organization, reusabili
 
          ansible-galaxy role init <role-name>
 3. this will create a role in your roles directory, try checking it with `ls` command.
+
+For Examples visit: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEFvUEx5MXBja0cxTHV5LUhQT2lDaXd0dEFId3xBQ3Jtc0trUXdiUzJuZ0o2cmxjN2FzbXJhSndCWFQtZ3pnYlFRaGtCeHNEREF3eE5sOUI1NkZtbFdvS1hMUkw4cmFtVXJHbV82YmNwNzZfcWVVejlUQ0Z3U1RROE10NUhuSXdLMkpQby0xVGJ5SkhMNDQ2U2lOTQ&q=https%3A%2F%2Fgithub.com%2Fansible%2Fansible-examples&v=Z6T2r3Xhk5k
