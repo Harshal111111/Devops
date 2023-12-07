@@ -676,3 +676,11 @@ my_role/
 In this example, the `my_role` directory structure aligns with the standard role structure, and the role is included in the playbook using the `roles` keyword.
 
 Roles are a powerful feature in Ansible, enabling better organization, reusability, and maintainability of automation code. They are particularly useful for managing complex infrastructure configurations and deploying applications consistently across different environments.
+
+# To create a role:
+
+1. Make a new directory called roles.
+2. Switch to that directory and run :
+
+         ansible-galaxy role init <role-name>
+3. this will create a role in your roles directory, try checking it with `ls` command.
